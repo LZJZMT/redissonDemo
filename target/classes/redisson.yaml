@@ -1,0 +1,23 @@
+singleServerConfig:
+  idleConnectionTimeout: 10000
+  pingTimeout: 1000
+  connectTimeout: 10000
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500
+  reconnectionTimeout: 3000
+  failedAttempts: 3
+  password: casa
+  subscriptionsPerConnection: 5
+  clientName: null
+  address: "redis://172.0.13.140:63791"
+  subscriptionConnectionMinimumIdleSize: 1
+  subscriptionConnectionPoolSize: 50
+  connectionMinimumIdleSize: 32
+  connectionPoolSize: 64
+  database: 0
+  dnsMonitoringInterval: 5000
+#threads: 0
+#nettyThreads: 0
+# 监控锁的看门狗超时，默认120s，避免死锁
+lockWatchdogTimeout: 10000
